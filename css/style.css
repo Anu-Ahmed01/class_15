@@ -1,0 +1,360 @@
+/* Common css start  */
+/* =========== Common Css Start =========== */
+:root{
+    --heading-font:'Abril fatface', cursive;
+    --primary-font:'Ubuntu', sans-serif; 
+    --secondary-font:'OpenSans', sans-serif;
+    --primary-color:#0f2f44;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,
+ol,li {
+    margin: 0;
+    list-style-type: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container .about_me .p1{
+    font-family: var(--primary-font);
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 14;
+}
+
+.container .about_me h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 32;
+    padding-bottom: 15px;
+}
+
+.container .about_me .p2{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 16;
+    padding-bottom:15px;
+}
+
+
+
+/* =========== Common Css End =========== */
+
+
+/*=============== header Section start============ */
+
+/* ++++++++++++++ Top-bar section start ++++++++++++++ */
+
+
+#head-bar{
+    background-color: #0f2f44;
+}
+
+#head-bar .container p{
+    font-family: var(--primary-font);
+   color: #fefefe;
+    font-size: 16px;
+    padding: 19px;
+ 
+}
+
+/* ++++++++++++++ Top-bar section End ++++++++++++++++++ */
+
+/* ========== Nav section start============= */
+
+.navbar  {
+    background-color: #ffffff;
+}
+.navbar #primary_Nav ul li a{
+    color: #222222;
+    display: inline-block;
+    font-size: 16px;
+    padding: 40px 19px;
+    font-family: var(--primary-font);
+    font-weight:500;
+    transition: 0.4s;
+}
+
+.navbar #primary_Nav ul li a:hover{
+    color: #ffce41;
+    background-color: #fff9e6;
+
+}
+
+.navbar #primary_Nav ul li button{
+    border: none;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    margin:0px 10px;
+    text-transform: capitalize;
+}
+.navbar #primary_Nav ul li button:hover{
+    color: #ffce41;
+    background-color: #fff9e6;
+
+}
+
+/* ========== Nav section End ============= */
+
+/*=============== header Section End============ */
+
+
+
+/*++++++++++++++++++++++ banner Section start +++++++++++++++++ */
+#banner{
+    background-color: #e0eeff;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+      background-image: url(./../img/banner.png);
+    
+    
+}
+
+#banner  .container .about_me .about_cards{
+ 
+
+   background-size: cover;
+   height: 400px;
+}
+
+
+#banner .container h1{
+    font-family: var(--heading-font);
+    font-size: 80px;
+}
+
+#banner .container h4{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: #8484bf;
+    font-size: 32px;
+    letter-spacing: 11px;
+}
+
+#banner .container p{
+    font-size: 14px;
+    color: #444444;
+    line-height: 28px;
+}
+
+#banner .container a{
+    color: #ffffff;
+    background-color: #8484bf;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 4%;  
+    width: 164px;
+    font-weight: 500;
+    margin: 30px 20px 0px 6px;
+   
+}
+
+#banner .container .video_player{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    color: #8484bf;
+    position: relative;
+    
+}
+
+#banner .container i{
+    position: absolute;
+    top: 32%;
+    left: 20px;
+    font-size: 19px;
+   
+}
+
+/*++++++++++++++++++++++ banner Section End +++++++++++++++++ */
+
+/*=============== Aout  Section Start============ */
+
+#about{
+    padding-top: 100px;
+    
+}
+#about .container a{
+    color: #0f2f44;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5%;
+   
+    width: 144px;
+    font-weight: 500;
+    margin: 20px 20px 0px 6px;
+    box-shadow: 5px 5px 3px rgb(227, 227, 227);  
+}
+
+#about .container .about_me ul li{
+    line-height: 44px;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+#about .container .about_me a{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color:var(--primary-color);
+    transition: 0.5s;  
+ 
+}
+
+#about .container .about_me a:hover{
+    background-color: #ffce41;
+    
+}
+
+/*=============== Aout  Section End============ */
+
+/* %%%%%%%%%%%%%%%%%%% skills section start %%%%%%%%%%%%%%%%% */
+
+#skill{
+    margin-top: 100px;
+}
+#skill .container .skill_text{
+    text-align:right ;
+
+}
+#skill .container .skill-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fefefe;
+    box-shadow: -8px -10px 15px rgba(255,255,255,0.5),
+    
+    8px 10px 15px rgba(130, 159, 177, 0.5);
+
+    color: #8484bf;
+    position: relative;
+    margin:13px 0px;
+   
+}
+
+
+#skill .container i{
+    position: absolute;
+    top: 32%;
+    left: 20px;
+    font-size: 19px;
+   
+}
+/* %%%%%%%%%%%%%%%%%%% skills section End %%%%%%%%%%%%%%%%% */
+
+/* +++++++++++++++ Services section start +++++++++++++++++++++ */
+
+
+#Servies .container .about_me .row .Service_logo .skill-logo i{
+    color: #0098d8;
+    margin: 90px 25px;
+    font-size: 30px;
+}
+#Service_s{
+    background-color: #f5f5f5;
+    padding: 50px 0px 0px 0px;
+    margin-top: 103px;
+}
+
+
+#Servies .about_me .Service_box{
+    background-color: #eeeeee;
+    margin-top: 0px
+    
+    
+}
+
+#Servies{
+    background-color: #f5f5f5;
+    padding-bottom: 57px;
+}
+
+#Servies .container .Service_box .row .text-service h3{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: #222222;
+    padding-top: 27px;
+}
+#Servies .container .Service_box .row .text-service p{
+    font-size:14px ;
+    font-family: var(--secondary-font);
+    color: #7c7c7c;
+    padding: 24px 0px 30px 0px;
+    line-height: 28px;
+}
+
+#Servies .container .about_me .row .web_text  i{
+    color:#222222;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+#Servies .container .web_text{
+background-color: #0f2f44;
+padding: 80px 110px;
+
+}
+
+
+#Servies .container .web_text h3{
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    
+}
+
+
+#Servies .container .web_text{
+    position: relative;
+}
+#Servies .container .web_text a{
+    background-color: #ffce41;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+#Servies .container .web_text a i{
+    color: white;
+    text-align: center;
+}
+/* +++++++++++++++ Services section End +++++++++++++++++++++ */
+
+/* +++++++++++++++ Portfolio section start +++++++++++++++++++++ */
+
+
+
+#Portfolio_s .container .row a{
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color:var(--primary-color);
+   border-radius: 5px;  
+    padding:19px 21px;
+    background-color: #ffce41;
+ 
+}
+
+
+
+#Portfolio_s .container .p_img1{
+    background-image: url(./../img/prothfolio.img1.png);
+    background-size: cover;
+}
+#Portfolio_s .container .p_img2{
+    background-image: url(./../img/prothfolio.img2.png);
+    background-size: cover;
+    
+}
+/* +++++++++++++++ Portfolio section End +++++++++++++++++++++ */
+
